@@ -22,6 +22,12 @@ public class controller {
 	public String getdata() {
 		String a=null;
 		return a=service1.getdata();
+
+
+		@GetMapping("/employees1")
+		public String getdata() {
+			String a=null;
+			return a=service1.getdata();
 		
 		
 	}
