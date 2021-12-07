@@ -10,7 +10,7 @@ public class service {
 	
 
 	public String getdata() {
-		String a="Hello";
+		String a="Helo";
 		return a;
 	}
 	
