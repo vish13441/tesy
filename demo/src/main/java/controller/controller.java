@@ -20,18 +20,19 @@ public class controller {
 	
 	@GetMapping("/employees")
 	public String getdata() {
-		String a=null;
-		return a=service1.getdata();
+		String a = null;
+		return a = service1.getdata();
+	}
 
 
 		@GetMapping("/employees1")
-		public String getdata() {
-			String a=null;
-			return a=service1.getdata();
-
+		public String getdata2() {
+			String a = null;
+			return a = service1.getdata();
+		}
 
     @GetMapping("/employees2")
-    public String getdata() {
+    public String getdata1() {
         String a=null;
         return a=service1.getdata();
 
